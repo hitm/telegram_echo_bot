@@ -4,7 +4,7 @@ from aiogram.types import Message
 from aiogram.webhook.aiohttp_server import SimpleRequestHandler, setup_application
 from aiohttp import web
 import os
-
+print("Бот был автоматически перезапущен через GitHub webhook!")
 TOKEN = "182639399:AAFY5sCAHF_1CUGQXlxLoqVjAicZ2f5UWTo"
 WEBHOOK_URL = "https://knwldgs.ru/webhook"
 WEBAPP_HOST = "0.0.0.0"
