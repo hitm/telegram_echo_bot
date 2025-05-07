@@ -1,0 +1,6 @@
+● telegram_bot.service - Telegram Echo Bot
+     Loaded: loaded (]8;;file://vm815274.vds.as210546.net/etc/systemd/system/telegram_bot.service/etc/systemd/system/telegram_bot.service]8;;; [0;1;32menabled[0m; preset: [0;1;32menabled[0m)
+     Active: activating (auto-restart) (Result: exit-code) since Wed 2025-05-07 23:00:38 CEST; 2s ago
+    Process: 431879 ExecStart=/usr/bin/python3 /home/telegrambot/telegram_echo_bot/bot.py [0;1;31m(code=exited, status=1/FAILURE)[0m
+   Main PID: 431879 (code=exited, status=1/FAILURE)
+        CPU: 158ms
