@@ -15,7 +15,7 @@ dp = Dispatcher()
 
 @dp.message()
 async def echo_handler(message: Message):
-    await message.answer("message.text")
+    await message.answer(message.text)
 
 async def on_startup(app):
     await bot.set_webhook(WEBHOOK_URL)
